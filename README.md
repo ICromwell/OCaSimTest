@@ -16,7 +16,7 @@ and to Peter Grayson in the Simpy Google group for helping figure out some of th
 If you use this code, I would ask that you please notify me (icromwell@bccrc.ca), as I am curious to see what other peoples'
 experiences are, and where there are areas for improvement.
 
-##############
+/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
 
 The model works by creating an entity (a simulated person) and then running various processes on that entity based on its
 characteristics. This is conducted by a 'Sequencer' function that looks at the entity's location within the model on a loop,
@@ -25,3 +25,9 @@ and then implements the according program based on the entity's position. The Se
 In the first iteration of the model (June, 2016), the exit conditions are:
 1) developing a stage 1 cancer
 2) detecting a precancerous lesion at a dentist's appointment
+
+/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\
+
+To run the model, you will need to save all files to a single path. You will also need to have Simpy installed.
+Once the files are in the same location and Simpy is running, open the Sequencer file and update 'myDir' (line #10)
+to the appropriate location. Then run the file.
